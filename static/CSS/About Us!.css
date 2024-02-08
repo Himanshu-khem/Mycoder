@@ -1,0 +1,83 @@
+.back{
+    background-image: linear-gradient(rgb(164, 188, 201),#fff);
+}
+.back-card{
+    background-color: rgb(184 203 212);
+}
+.nav-item{
+    border-radius: 15px;
+    padding: 0px 13px;
+}
+.nav_bg{
+    background-color: rgb(175, 255, 251);
+    padding: 8px;
+}
+.navbar-brand {
+    margin-left: 20px;
+}
+.d-flex input{
+    text-align: center;
+    border-radius: 12px;
+}
+.nav-item:hover{
+    background-color: rgb(228, 199, 255);
+    transition-duration: 0.5s;
+}
+.dropdown-item:hover{
+    background-color: rgb(241, 227, 254);
+    color: rgb(5, 186, 126);
+}
+/* .container{
+    
+    --bs-gutter-x: 22.5rem;
+} */
+.card{
+    padding: 2px 60px;
+    border: 1px solid rgb(184 203 212);
+}
+.card-img{
+    border-radius: 224px;
+}
+.card-img-top {
+    width: 78%;
+}
+.mt-5 {
+    margin-top: 12rem!important;
+}
+.footer{
+    background-color: black;
+}
+.footer p{
+    color: white;
+    margin: 2px 4px ;
+    padding: 2px;
+}
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slidmodi{
+    width: 96%;
+    margin: auto;
+    margin-top: 75px;
+}
+.carousel-item img{
+    border-radius: 20px;
+}
+.footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    margin: 0;
+}
+.footer img{
+    width: 55px;
+    height: 42px;
+    border-radius: 21px;
+    margin: 2px 6px;
+}

@@ -1,0 +1,36 @@
+{% extends "home/base.html" %} 
+{% load static %}
+ {% block body %}
+<!-- form start here -->
+<div class="container" >
+    <div class="container d-flex align-items-center justify-content-center">
+        <h2>Signup To Mycoder</h2>
+    </div>
+  <form action="/signuptest" method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <input
+          type="text"
+          class="form-control border border-black"
+          name="captchauser"
+          id="captchauser"
+          placeholder='{{ran}}' readonly
+          required value = '{{ran}}'
+        />
+    <div class="mb-3">
+        <label for="captcha" class="form-label text-white fw-bold"
+          >Enter Above Captcha</label
+        >
+        <input
+          type="text"
+          class="form-control border border-black"
+          name="capenter"
+          id="capenter"
+          required
+        />
+      </div>
+  </form>
+</div>
+  {% endblock body %}
+  <!-- form ends here -->
+

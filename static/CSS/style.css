@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-weight: 300;
+}
+.nav_bar{
+    background-color: #16171b;
+}
+/* .nav-item a{
+    padding: 20px;
+} */
+.p-3 {
+    padding: 0rem!important;
+}
+.but{
+    padding: 0.5rem 1.25rem 0.35rem;
+    font-family: Input Sans, sans-serif;
+}
+.vid{
+    transition-delay: 5s;
+}
+.nav-link{
+    font-family: Input Sans, sans-serif;
+}
+.img{
+    transition-duration: 1s;
+}
+.img:hover{
+    transform: scale(1.2) ;   
+     cursor: pointer;
+}
+.spa{
+    letter-spacing: 10px;
+}
+.font{
+    font-size: 3.5rem!important;
+}
+.img_gif{
+    display: none;
+}
+.font-1{
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #f29871, #ff4d4d);
+    font-size: 5.5rem;
+    -webkit-background-clip: text;
+    font-family: sans-serif;
+}
+.rang{
+    -webkit-text-fill-color: transparent;
+    font-size: 5.5rem;
+    background-image: linear-gradient(to right, #f0e8e4, #ffbfbf);
+    -webkit-background-clip: text;
+    font-family: sans-serif;
+  }
+  .rang_2{
+    -webkit-text-fill-color: transparent;
+    font-size: 3.0rem;
+    background-image: linear-gradient(to right, #ce8c6a, #69a0cd);
+    -webkit-background-clip: text;
+    font-family: sans-serif;
+    margin: 35px;
+  }
+  .bac{
+    background-image: linear-gradient(to right, #42312c, #452225);
+    /* background-position: 0 0, 0 0; */
+    /* background-size: 200px, auto;
+    border: 2px solid red; */
+    border-radius: 20px;
+    width: 80%;
+    /* height: 90vh; */
+  }
+  .head{
+    font-family: Input Sans, sans-serif;
+    font-size: 2.875rem;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+  .content{
+    width: 60%;
+  }
+  .card-modi{
+    background-image: linear-gradient(to right, #42312c, #452225);
+    color: white;
+  }
+  .card_modi_1{
+    display: inline-block;
+    width: 46%;
+    margin-left: 30px;
+  }
+  .heading{
+    width: 92%; 
+    font-size: 5.0rem !important; 
+    text-align: center;
+  }
+  .paragraph{
+    width: 92%;
+    text-align: center;
+  }
+  .margin{
+    margin: 1.5rem;
+  }
+  .carousel-item img{
+    opacity: 0.5;
+    width: 1400px;
+    height: 400px;
+  }
+  .carousel-item img{
+    border-radius: 20px;
+}
+.bg_color{
+    background-color: #000000e6;
+    color: white;
+}
+.bg_color_card{
+    background-color: #00000026;
+    color: white;
+}
+.text-ali{
+  text-align: center;
+}
+.design li a{
+  color: inherit;
+  text-decoration: none;
+}
+.design li a {
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.design li a:hover{
+  background-size: 0 3px, 100% 3px;
+}
+.animation a:hover{
+   transform: scale(1.2) ;      /* work form this is pending and will be continue from this line */
+     cursor: pointer;
+}
+@media only screen and (max-width: 320px){
+    .font{
+      font-size: 2.5rem!important;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .img_gif{
+        width: 90%;
+        display: inline-block;
+        border-radius: 20px;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .spa{
+        letter-spacing: 0px;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .font-1{
+        font-size: 1.7rem !important;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .rang{
+        font-size: 1.5rem !important;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .rang_2{
+        font-size: 1.9rem !important;
+        margin: 10px;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .bac img{
+        width: 50px;
+        height: 50px;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .content{
+        width: 100%;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .card_modi_1{
+        display: flex;
+        width: 100%;
+        margin: 0px;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .card_modi_1 img{
+        width: 350px;
+        height: 500px;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .card-img-overlay img{
+        width: 300px;
+        height: 200px;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .heading{
+      width: 100%;
+      font-size: 3rem !important;
+      text-align: center;
+    }
+  }
+  
+@media only screen and (max-width: 426px){
+    .card_photo{
+      width: 80px !important;
+      height: 80px !important;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .margin{
+      margin: 0rem !important;
+    }
+  }
+@media only screen and (max-width: 426px){
+    .no-flex{
+      display: inline-block !important;
+    }
+  }
+
+  /* tablet css is form here */
+  @media only screen and (max-width: 768px){
+    .font-1{
+        
+        font-size: 4.7rem;
+    
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .spa{
+      letter-spacing: 6px;
+      max-width: 678px !important;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .rang{
+      font-size: 4rem;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .card_modi_1{
+      width: 84% !important;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .tab{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .card-group{
+      display: inline;
+    }
+  }
